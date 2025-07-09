@@ -1,4 +1,7 @@
-function sum(m, n) {
- return m+n;
-}
-console.log (sum(1, 1));
+let m;
+let n;
+let sum;
+m = 1;
+n = 1;
+sum = a + b;
+console.log (sum);
