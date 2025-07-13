@@ -1,3 +1,9 @@
 function checkSpam(str) {
-  // ваш код...
+  let spam = ["1XbeT now", "free xxxxx"];
+  for (let notSpam of spam){
+  if (str.includes(notSpam))
+  return true;
+  }
+  return false;
+
 }
