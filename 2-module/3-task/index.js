@@ -1,6 +1,16 @@
 let calculator = {
-  // ваш код
+  a: 0,
+  b: 0, 
+read (nam1 = 0 ,nam2 = 0) {
+  this.a = Number (nam1);
+  this.b = Number (nam2);
+},
+sum (){
+  return this.a + this.b;
+},
+mul (){
+  return this.a * this.b;
+},
 };
-
-// НЕ УДАЛЯТЬ СТРОКУ, НУЖНА ДЛЯ ПРОВЕРКИ
+calculator.read(3, 5);
 window.calculator = calculator; // делает ваш калькулятор доступным глобально
